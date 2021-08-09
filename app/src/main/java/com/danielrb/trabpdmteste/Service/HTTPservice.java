@@ -28,7 +28,7 @@ public class HTTPservice extends AsyncTask<String, Void, String>{
         StringBuilder resposta= new StringBuilder();
         String result = "";
 
-        String token= "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6ImFiNzk5MWFlLWU1NzEtNGUxMC1iMmYwLWEyMTY5MDczYjUxZiIsImlhdCI6MTYyNDEyNzU3Nywic3ViIjoiZGV2ZWxvcGVyLzJjOGI2MzZiLTQ3NTItZGE3Mi00YWY2LTc0NDIyYjkxZTE5NSIsInNjb3BlcyI6WyJyb3lhbGUiXSwibGltaXRzIjpbeyJ0aWVyIjoiZGV2ZWxvcGVyL3NpbHZlciIsInR5cGUiOiJ0aHJvdHRsaW5nIn0seyJjaWRycyI6WyIxODcuMTEzLjE5My4xODciXSwidHlwZSI6ImNsaWVudCJ9XX0.cYRGee93gzb-ACeCa2Y9wMSkMzilW4_LHxatv2FVbcsuvzmxPbd1XKUyXpbDip8poWf1H8M3sS5HF_dO-MDE_w";
+        String token= "";
 
         try {
 
